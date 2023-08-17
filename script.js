@@ -48,9 +48,11 @@ function calculateTotal() {
     if (resultFeedback >= 90) {
         feedbackElement.textContent = "Congratulations! You have achieved an excellent result.";
         feedbackElement.style.color = "green";
+        feedbackElement.style.fontSize = "16px";
     } else {
         feedbackElement.textContent = "Keep up the good work! Your result is not quite at the top level.";
         feedbackElement.style.color = "blue"; 
+        feedbackElement.style.fontSize = "16px";
     }
 }
 
