@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-container, .grade-content {
+    padding: 20px;
+}
+
+.main-container h1, .grade-content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+}
+
+.main-content li, .grade-content li {
+    list-style: none;
+}
+
+.main-content input, .grade-content input {
+    margin: 10px 0;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    left: 10%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 0 10px;
+    position: relative;
+    left: 10%;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: teal;
+    background: aliceblue;
+}
+
+.button:hover {
+    color: black;
+    background-color: turquoise;
+}
+
+.result-container {
+   padding: 30px;
+}
+
+.result-container h3 {
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result-feeback h1 {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
